@@ -4,3 +4,5 @@ abtesting.log
 abtesting.out
 abtesting.pdf
 abtesting.toc
+*.bbl
+*.blg
