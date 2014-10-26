@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<opml version="1.0">
+    <head>
+        <title>controlled experiments for freemium games</title>
+        <ownerName></ownerName>
+    </head>
+    <body>
+        <outline text="Quotes">
+            <outline text="choose everything (wired http://wired.com/2012/04/ff_abtesting/2/)"></outline>
+            <outline text="“I am a big believer in reason and facts and evidence and science and feedback—everything that allows you to do what you do. That’s what we should be doing in our government.” Obama http://wired.com/2012/04/ff_abtesting/"></outline>
+            <outline text="A/B testing wins 50/50 elections"></outline>
+            <outline text="“Ten years ago you did not have data. Five years ago the best reporting tools were a day behind,” says Yulie Kim, VP of product at the furniture etailer One Kings Lane http://www.wired.com/2012/04/ff_abtesting/3/"></outline>
+            <outline text="Big data is not enough. It has to be real-time data that we can act on during the course of the day. This has been a huge boon for the growth of our business.”CEO Doug Mack http://www.wired.com/2012/04/ff_abtesting/3/"></outline>
+            <outline text="A/B testing is crowdsourcing you decisions"></outline>
+            <outline text="One accurate measurement is worth more than a thousand expert opinions — Admiral Grace Hopper http://www.exp-platform.com/Documents/GuideControlledExperiments.pdf
+"></outline>
+            <outline text="The fewer the facts, the stronger the opinion
+— Arnold Glasow
+http://www.exp-platform.com/Documents/GuideControlledExperiments.pdf"></outline>
+            <outline text="Enlightened trial and error outperforms the planning of flawless execution — David Kelly, founder of Ideo
+http://www.exp-platform.com/Documents/GuideControlledExperiments.pdf"></outline>
+            <outline text="The difference between theory and practice is larger in practice than the difference between theory and practice in theory Jan L.A. van de Snepscheut
+"></outline>
+        </outline>
+        <outline text="controlled experiments for freemium games">
+            <outline text="Introduction">
+                <outline text="Introduction to the field">
+                    <outline text="theory">
+                        <outline text="introduction">
+                            <outline text="I am a big believer in reason and facts and evidence and science and feedback—everything that allows you to do what you do (wired 2012, barak obama) http://www.wired.com/2012/04/ff_abtesting/"></outline>
+                            <outline text="history">
+                                <outline text="Invented by Karl Pearson in 1900 http://elem.com/~btilly/effective-ab-testing/"></outline>
+                                <outline text="Close relative o fthe chi squared test http://elem.com/~btilly/effective-ab-testing/ "></outline>
+                            </outline>
+                        </outline>
+                        <outline text="design science research">
+                            <outline text="introduction">
+                                <outline text="improve the efficiency and effectiveness of organizations"></outline>
+                                <outline text="confluence of people, organisations, technology and work systems (Hevner 2009)"></outline>
+                                <outline text="technology and behaviour are intertwined (Hevner 2004, p.77)"></outline>
+                                <outline text="Instantiations, models, methods, constructs (Hevner 2004, p.77)"></outline>
+                                <outline text="Design is both verb an a noun Walls et al 1992"></outline>
+                            </outline>
+                            <outline text="method">
+                                <outline text="Reserch rigor"></outline>
+                                <outline text="Problem relevance"></outline>
+                                <outline text="Design as an Artifact"></outline>
+                                <outline text="Design evaluation"></outline>
+                                <outline text="Research contributions"></outline>
+                                <outline text="Design as a Search Process"></outline>
+                                <outline text="Communication of Research"></outline>
+                            </outline>
+                        </outline>
+                        <outline text="split testing">
+                            <outline text="requires independence in samples"></outline>
+                            <outline text="push for 99% confidence  http://elem.com/~btilly/effective-ab-testing/ "></outline>
+                            <outline text="Control Group"></outline>
+                            <outline text="Variant"></outline>
+                        </outline>
+                        <outline text="free to play games"></outline>
+                        <outline text="split testing for improving conversion in free to play games">
+                            <outline text="what">
+                                <outline text="controlled experiment"></outline>
+                                <outline text="randomized experiments"></outline>
+                                <outline text="Behavioral data is objective: it represents users’ reactions to various feature implementations, ranging from core mechanics to design. (Seufert 2013)"></outline>
+                            </outline>
+                            <outline text="why">
+                                <outline text="data driven design"></outline>
+                                <outline text="complex environment cynefin"></outline>
+                                <outline text="Significant improvements on ROI"></outline>
+                                <outline text="The culture of experimentation at Amazon, where data trumps intuition (Kohavi et al. 2004), and a system that made running experiments easy, allowed Amazon to innovate quickly and effectively."></outline>
+                                <outline text="design of game economy">
+                                    <outline text="tools">
+                                        <outline text="onboarding funnel"></outline>
+                                    </outline>
+                                    <outline text="metrics">
+                                        <outline text="monetization">
+                                            <outline text="advertising"></outline>
+                                            <outline text="IAP"></outline>
+                                            <outline text="conversion">
+                                                <outline text="5% tops"></outline>
+                                                <outline text="paying users / total number of users"></outline>
+                                            </outline>
+                                        </outline>
+                                        <outline text="retention"></outline>
+                                        <outline text="engagement">
+                                            <outline text="onboarding funnel"></outline>
+                                            <outline text="net promoter score"></outline>
+                                            <outline text="New Node"></outline>
+                                        </outline>
+                                    </outline>
+                                </outline>
+                            </outline>
+                            <outline text="how">
+                                <outline text="create test"></outline>
+                                <outline text="run test"></outline>
+                                <outline text="evaluate relevance">
+                                    <outline text="t-test"></outline>
+                                </outline>
+                                <outline text="deploy results"></outline>
+                            </outline>
+                        </outline>
+                    </outline>
+                    <outline text="Examples"></outline>
+                </outline>
+                <outline text="Specific area of study">
+                    <outline text="split testing in game design"></outline>
+                </outline>
+                <outline text="This study">
+                    <outline text="split testing free to play games"></outline>
+                </outline>
+                <outline text="Niche">
+                    <outline text="split testing for conversion"></outline>
+                    <outline text="split testing for likelihood that a user will convert"></outline>
+                </outline>
+                <outline text="Present this study in a short way">
+                    <outline text="What metrics should be followed to convert users as much as possible"></outline>
+                </outline>
+                <outline text="Questions">
+                    <outline text="MVP for a/b testing design of free to play games"></outline>
+                    <outline text="is it feasible to build an a/b testing tool"></outline>
+                    <outline text="are there differences in split testing games and websites"></outline>
+                    <outline text="what kinds of tools exist for running a/b tests for games and websites"></outline>
+                    <outline text="New Node"></outline>
+                </outline>
+            </outline>
+            <outline text="Discussion">
+                <outline text="Research questions"></outline>
+                <outline text="Were the questions answered or not"></outline>
+                <outline text="Validity of results"></outline>
+                <outline text="What next"></outline>
+            </outline>
+            <outline text="Methods">
+                <outline text="controlled experiments">
+                    <outline text="Experiment Theory http://www.exp-platform.com/Documents/GuideControlledExperiments.pdf">
+                        <outline text="Terminology ">
+                            <outline text="Overall evaluation criterion">
+                                <outline text="A good OEC should not be short-term focused (e.g., clicks); to the contrary, it should include factors that predict long-term goals, such as predicted lifetime value and repeat visits. Ulwick describes some ways to measure what customers want (although not specifically for the web) Kohavi 2007
+"></outline>
+                            </outline>
+                            <outline text="Factor">
+                                <outline text="A/B tests have a single factor"></outline>
+                            </outline>
+                            <outline text="Variant">
+                                <outline text="A user experience being tested by assigning levels to the factors; it is either the Control or one of the Treatments"></outline>
+                                <outline text="treatment">
+                                    <outline text="The altered variant"></outline>
+                                </outline>
+                                <outline text="control"></outline>
+                            </outline>
+                            <outline text="value">
+                                <outline text="Level"></outline>
+                                <outline text="version"></outline>
+                            </outline>
+                            <outline text="Experimentation Unit">
+                                <outline text="The entity on which observations are made (like a button for example) "></outline>
+                            </outline>
+                            <outline text="Null hypotheses">
+                                <outline text="The OECs for the variants are not different"></outline>
+                            </outline>
+                            <outline text="confidence level">
+                                <outline text="the probability of failing to reject the null hypothesis when it is true"></outline>
+                            </outline>
+                            <outline text="power">
+                                <outline text="The probability of correctly rejecting the null hypothesis when it is false. Power measures our ability to detect a difference wen it indeed exists"></outline>
+                            </outline>
+                            <outline text="A/A test">
+                                <outline text="Null test can be used to collect data and assess its variability for power calculations"></outline>
+                                <outline text="to test the experimentation system"></outline>
+                            </outline>
+                            <outline text="Standard deviation">
+                                <outline text="a measure of variability"></outline>
+                            </outline>
+                            <outline text="standard error">
+                                <outline text="standard deviation of the sampling distribution of the sample statistic"></outline>
+                            </outline>
+                            <outline text="Goals">
+                                <outline text="Overall Evaluation Criterion">
+                                    <outline text="Retention"></outline>
+                                    <outline text="Conversion"></outline>
+                                </outline>
+                            </outline>
+                        </outline>
+                        <outline text="Methods">
+                            <outline text="Controlled experiment with n variants"></outline>
+                            <outline text="Multivariate experiments"></outline>
+                            <outline text="Statistical significance">
+                                <outline text="students t-test"></outline>
+                            </outline>
+                        </outline>
+                        <outline text="Limitations">
+                            <outline text="Quantitative Metrics, but not Explanations p5"></outline>
+                            <outline text="Short term vs. long term effects"></outline>
+                            <outline text="Primacy effect">
+                                <outline text="experienced users are thrown off"></outline>
+                            </outline>
+                            <outline text="Newness effect">
+                                <outline text="some users will click everywhere to investigate"></outline>
+                            </outline>
+                            <outline text="Features must be implemented"></outline>
+                            <outline text="Consistency">
+                                <outline text="some people notice they get a different variant from family and friends"></outline>
+                            </outline>
+                            <outline text="parallel experiments">
+                                <outline text="our experience is that strong interactions are rare in practice and we believe this practice is overrated"></outline>
+                            </outline>
+                            <outline text="if there’s a big feature announced for all, everyone needs to see it"></outline>
+                        </outline>
+                    </outline>
+                    <outline text="uses">
+                        <outline text="Software migrations http://www.exp-platform.com/Documents/GuideControlledExperiments.pdf"></outline>
+                        <outline text="Improve retention"></outline>
+                        <outline text="Improve conversion"></outline>
+                    </outline>
+                    <outline text="tool">
+                        <outline text="Features">
+                            <outline text="Experiment CRUD">
+                                <outline text="Data model">
+                                    <outline text="Experiment">
+                                        <outline text="runtime">
+                                            <outline text="start"></outline>
+                                            <outline text="end"></outline>
+                                        </outline>
+                                        <outline text="1-n Variant">
+                                            <outline text="sample size"></outline>
+                                            <outline text="unique samples"></outline>
+                                            <outline text="hit weight"></outline>
+                                        </outline>
+                                        <outline text="Filters">
+                                            <outline text="Percentage of traffic"></outline>
+                                        </outline>
+                                    </outline>
+                                </outline>
+                            </outline>
+                            <outline text="Constraints">
+                                <outline text="4. monotonic ramp up"></outline>
+                                <outline text="3. When multiple experiments are run concurrently, there must be no correlation between experiments"></outline>
+                                <outline text="2. repeat assignments of a single user must be consistent"></outline>
+                                <outline text="1. Users must be equally likely to see each variant of an experiment"></outline>
+                            </outline>
+                        </outline>
+                    </outline>
+                    <outline text="Best Practices">
+                        <outline text="Know your conversion funnel http://elem.com/~btilly/effective-ab-testing/"></outline>
+                        <outline text="Don’t surprise regular visitors http://www.smashingmagazine.com/2010/06/24/the-ultimate-guide-to-a-b-testing/"></outline>
+                        <outline text="Show repeat visitors the same variations http://www.smashingmagazine.com/2010/06/24/the-ultimate-guide-to-a-b-testing/"></outline>
+                        <outline text="Don’t let feelings come in the way http://www.smashingmagazine.com/2010/06/24/the-ultimate-guide-to-a-b-testing/"></outline>
+                        <outline text="Make your A/B test consistent http://www.smashingmagazine.com/2010/06/24/the-ultimate-guide-to-a-b-testing/"></outline>
+                        <outline text="Treatment ramp up http://www.exp-platform.com/Documents/GuideControlledExperiments.pdf">
+                            <outline text="Make sure there are no errors in the test before exposing it to more users."></outline>
+                        </outline>
+                        <outline text="Use Multi-armed bandit algorithms for quick decisions"></outline>
+                        <outline text="Make sure speed is not the issue in conversions p. 7 http://www.exp-platform.com/Documents/GuideControlledExperiments.pdf"></outline>
+                        <outline text="Run continuous A/A tests p.7 http://www.exp-platform.com/Documents/GuideControlledExperiments.pdf"></outline>
+                        <outline text="By doing near-real-time analysis, experiments can be auto-aborted if a treatment is statistically significantly underperforming relative to the Control p.7"></outline>
+                        <outline text="http://bit.ly/KCEb5G"></outline>
+                    </outline>
+                </outline>
+                <outline text="Freemium">
+                    <outline text="terms">
+                        <outline text="freemium">
+                            <outline text="success">
+                                <outline text="monetization"></outline>
+                                <outline text="scale"></outline>
+                                <outline text="insight"></outline>
+                            </outline>
+                            <outline text="The freemium business model stipulates that a product’s basic functionality be given away for free, in an environment of very low or no marginal distribution and production costs that provides the potential for massive scale, with advanced functionality, premium access, and other product-specific benefits available for a fee. (Freemium Econ )"></outline>
+                        </outline>
+                        <outline text="price discrimination"></outline>
+                        <outline text="price elasticity demand">
+                            <outline text="Price Elasticity of Demand = % Change in Quantity Demanded / % Change in Price"></outline>
+                        </outline>
+                        <outline text="Pareto optimal"></outline>
+                        <outline text="prisoner's dilemma"></outline>
+                        <outline text="consumer insight"></outline>
+                        <outline text="price point 0 renders product available to the greatest number of people (Freemium econ)"></outline>
+                        <outline text="data driven product development"></outline>
+                        <outline text="5 % rule. No more than 5% of users can be expected to monetize"></outline>
+                        <outline text="Optimization is the process of converting data about user behavior into product improvements that increase some performance metric. (Freemium Economics)">
+                            <outline text="local optimization"></outline>
+                            <outline text="global optimization"></outline>
+                        </outline>
+                        <outline text="Conversion is a measure of monetization relative to the entire size of the user base."></outline>
+                        <outline text="A/B test"></outline>
+                        <outline text="Statistical significance"></outline>
+                        <outline text="Overall evaluation criterion A quantitative measure of the experiment’s objective
+"></outline>
+                    </outline>
+                </outline>
+                <outline text="A/B Testing Systems prior art">
+                    <outline text="Optimizely.com"></outline>
+                    <outline text="Visual Website Optimizer"></outline>
+                    <outline text="Google Analytics">
+                        <outline text="Experiments">
+                            <outline text="name"></outline>
+                            <outline text="goal type">
+                                <outline text="destination"></outline>
+                                <outline text="duration"></outline>
+                                <outline text="pages/screens per session"></outline>
+                                <outline text="event"></outline>
+                            </outline>
+                            <outline text=""></outline>
+                        </outline>
+                    </outline>
+                    <outline text="Unbounce"></outline>
+                    <outline text="KISSMetrics"></outline>
+                    <outline text="Genetify"></outline>
+                    <outline text="Convert"></outline>
+                    <outline text="Vanity"></outline>
+                    <outline text="Vertster"></outline>
+                    <outline text="A/Bingo"></outline>
+                    <outline text="Five second test"></outline>
+                    <outline text="Performable"></outline>
+                    <outline text="Splitforce"></outline>
+                    <outline text="Airlock"></outline>
+                    <outline text="Amazon A/B Testing"></outline>
+                    <outline text="Arise"></outline>
+                    <outline text="Clutch.io"></outline>
+                    <outline text="Optimimo"></outline>
+                    <outline text="Pathmapp"></outline>
+                    <outline text="Bestly"></outline>
+                    <outline text="Kii"></outline>
+                    <outline text="Switchboard"></outline>
+                    <outline text="Abba"></outline>
+                    <outline text="Hercules"></outline>
+                    <outline text="Leanplum"></outline>
+                    <outline text="Taplytics"></outline>
+                    <outline text="Apptimize"></outline>
+                    <outline text="Vessel"></outline>
+                    <outline text="Fliptest.io"></outline>
+                    <outline text="Liquid"></outline>
+                    <outline text="VWo"></outline>
+                    <outline text="indicative.com"></outline>
+                </outline>
+                <outline text="Design science research"></outline>
+            </outline>
+            <outline text="Results"></outline>
+        </outline>
+        <outline text="People">
+            <outline text="WS Gosset or Student http://projecteuclid.org/download/pdf_1/euclid.ss/1177013437"></outline>
+        </outline>
+    </body>
+</opml>
