@@ -8,3 +8,4 @@ abtesting.toc
 *.blg
 *bower_components
 *node_modules
+*npm-debug.log

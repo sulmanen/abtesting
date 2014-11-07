@@ -1,0 +1,24 @@
+{
+  "name": "abtesting-charts",
+  "version": "0.0.1",
+  "homepage": "https://github.com/sulmanen/abtesting",
+  "authors": [
+    "Samuli Ulmanen <s.ulmanen@gmail.com>"
+  ],
+  "description": "Charts for ab testing",
+  "main": "index.html",
+  "keywords": [
+    "charts"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.4.13"
+  }
+}
