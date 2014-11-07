@@ -3,14 +3,12 @@
         phones = [0, 0, 1, 4, 5, 7, 11, 16, 22, 0],
         pc = [7, 8, 10, 14, 15, 16, 18, 19, 20, 20],
         year,
-        margin = {top: 80, right: 80, bottom: 80, left: 80};
-
-    var n = 3, // number of layers
+        margin = {top: 80, right: 80, bottom: 80, left: 80},
+        n = 3, // number of layers
         m = 10, // number of samples per layer
         stack = d3.layout.stack().offset("wiggle"),
-        layers0 = stack(d3.range(n).map(function(i) { return bumpLayer(i).values; }));
-
-    var width = 960,
+        layers0 = stack(d3.range(n).map(function(i) { return bumpLayer(i).values; })),
+        width = 960,
         height = 500;
 
     var x = d3.time.scale()
@@ -32,21 +30,7 @@
             .y0(function(d) { return y(d.y0); })
             .y1(function(d) { return y(d.y0 + d.y); });
 
-    var tickValues = [
-        '2004',
-        '2005',
-        '2006',
-        '2007',
-        '2008',
-        '2009',
-        '2010',
-        '2011',
-        '2012',
-        '2013'
-    ].map(function(val) {return new Date(val).getTime();});
-
-
-    var xAxis = d3.svg.axis().scale(x).orient('bottom');
+    var xAxis = d3.svg.axis().scale(x).innerTickSize(-height).outerTickSize(1).tickSubdivide(true);
 
     var svg = d3.select("body").append("svg").attr("width", width + margin.left + margin.right).attr("height", height + margin.top + margin.bottom);
 
@@ -57,7 +41,7 @@
         .attr("d", area)
         .style("fill", function() { return color(Math.random()); });
 
-    svg.append("g").call(xAxis);
+    svg.append("g").attr('class', 'x-axis').attr("transform", "translate(0," + height + ")").call(xAxis);
 
     function bumpLayer(index) {
         switch(index) {
