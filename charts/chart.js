@@ -2,7 +2,8 @@
     var tablets = [0, 0, 0, 0, 0, 0, 0, 2, 3, 6],
         phones = [0, 0, 1, 4, 5, 7, 11, 16, 22, 0],
         pc = [7, 8, 10, 14, 15, 16, 18, 19, 20, 20],
-        year;
+        year,
+        margin = {top: 80, right: 80, bottom: 80, left: 80};
 
     var n = 3, // number of layers
         m = 10, // number of samples per layer
@@ -47,7 +48,7 @@
 
     var xAxis = d3.svg.axis().scale(x).orient('bottom');
 
-    var svg = d3.select("body").append("svg").attr("width", width).attr("height", height);
+    var svg = d3.select("body").append("svg").attr("width", width + margin.left + margin.right).attr("height", height + margin.top + margin.bottom);
 
 
     svg.selectAll("path")
