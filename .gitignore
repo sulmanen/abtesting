@@ -6,3 +6,5 @@ abtesting.pdf
 abtesting.toc
 *.bbl
 *.blg
+*bower_components
+*node_modules
