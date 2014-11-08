@@ -46,7 +46,7 @@
         .attr("d", area)
         .style("fill", function() {
             var c = color(Math.random());
-            color_hash[colorIndex][1] = c;
+            color_hash[colorIndex++][1] = c;
             return c;
         });
 
@@ -54,11 +54,12 @@
 
     // add legend
 	var legend = svg.append("g")
-	  .attr("class", "legend")
-	  .attr("x", width - 65)
-	  .attr("y", 25)
-	  .attr("height", 100)
-	  .attr("width", 100);
+	 .attr("class", "legend")
+         .attr("transform", "translate(" + -800  + "," + 50 + ")")
+	 .attr("x", width - 65)
+	 .attr("y", 25)
+	 .attr("height", 100)
+	 .attr("width", 100);
 
     legend.selectAll('g').data(getData())
         .enter()
