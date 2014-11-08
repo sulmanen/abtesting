@@ -7,7 +7,7 @@
         n = 3, // number of layers
         m = 10, // number of samples per layer
         stack = d3.layout.stack().offset("wiggle"),
-        layers0 = stack(d3.range(n).map(function(i) { return bumpLayer(i).values; })),
+        layers0 = stack(d3.range(n).map(function(i) { return getData(i).values; })),
         width = 960,
         height = 500;
 
@@ -43,7 +43,7 @@
 
     svg.append("g").attr('class', 'x-axis').attr("transform", "translate(0," + height + ")").call(xAxis);
 
-    function bumpLayer(index) {
+    function getData(index) {
         switch(index) {
         case 0:
             year = 2003;
